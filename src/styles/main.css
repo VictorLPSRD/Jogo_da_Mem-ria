@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/src/imagens/download.jpg);
+    background-size: 100% 100% ;
+    user-select: none;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    opacity: 0.85;
+    padding: 20px 60px;
+    border: 2px solid ;
+    border-radius: 50px;
+    border-color: #a20da2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -100px, rgba(0, 0, 0, 0.3) 0px 30px 60px -100px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  h2{
+    color: #a405a4;
+    box-shadow: #404040;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .RESET{
+    width: 250px;
+    height: 62px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 1.0;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+  }
+
+  .RESET:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .RESET:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+  }
+
+  .JOGO{
+    width: 430px;
+    height:430px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    border-color: #a20da2;
+  }
+
+  .item{
+    font-size: 3.5em;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+  }
+
+  .item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #404040;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+  }
+  
+  .item.boxOpen {
+    transform: rotateY(0deg);
+  }
+  
+  .boxOpen::after,
+  .boxMatch::after {
+    transform: rotateY(180deg);
+  }
