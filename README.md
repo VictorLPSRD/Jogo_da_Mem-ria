@@ -21,7 +21,7 @@ A estrutura do código-fonte está organizada da seguinte forma:<br>
 **main.css**: Estilos e layout do Jogo da Memória.<br>
 **main.js**: Implementação da lógica do jogo em JavaScript.<br>
 
-## Contribuição
+# Contribuição
 Fique à vontade para contribuir, reportar problemas ou sugerir melhorias neste projeto.<br> Você pode criar issues ou enviar pull requests no repositório do GitHub.<br>
 
 
