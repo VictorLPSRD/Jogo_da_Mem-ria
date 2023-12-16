@@ -11,7 +11,7 @@ O Jogo da Memória desafia os jogadores a encontrarem pares correspondentes de c
 ## Como Jogar
 Acesse o Jogo da Memória através do seguinte link: Jogo da Memória.<br>
 Clique nas cartas para virá-las.
-Tente encontrar pares correspondentes de cartas com o menor número possível de tentativas.
+Tente encontrar pares correspondentes de cartas com o menor número possível de tentativas.<br>
 O jogo é concluído quando todos os pares são encontrados.
 
 ## Estrutura do Projeto
@@ -21,7 +21,7 @@ A estrutura do código-fonte está organizada da seguinte forma:<br>
 **main.css**: Estilos e layout do Jogo da Memória.<br>
 **main.js**: Implementação da lógica do jogo em JavaScript.<br>
 
-##Contribuição
-Fique à vontade para contribuir, reportar problemas ou sugerir melhorias neste projeto. Você pode criar issues ou enviar pull requests no repositório do GitHub.
+## Contribuição
+Fique à vontade para contribuir, reportar problemas ou sugerir melhorias neste projeto.<br> Você pode criar issues ou enviar pull requests no repositório do GitHub.<br>
 
-Esperamos que este projeto seja útil para quem está aprendendo sobre desenvolvimento de jogos e tecnologias web. Divirta-se exercitando sua memória!
+
