@@ -9,7 +9,7 @@ O Jogo da Memória desafia os jogadores a encontrarem pares correspondentes de c
 -**JavaScript**: Lógica de programação para interação do usuário e funcionalidades do jogo.<br>
 
 ## Como Jogar
-Acesse o Jogo da Memória através do seguinte link: Jogo da Memória.<br>
+Acesse o Jogo da Memória através do seguinte link: [Jogo da Memória](https://victorlpsrd.github.io/Jogo_da_Mem-ria/).<br>
 Clique nas cartas para virá-las.
 Tente encontrar pares correspondentes de cartas com o menor número possível de tentativas.<br>
 O jogo é concluído quando todos os pares são encontrados.
